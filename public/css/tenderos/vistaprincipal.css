@@ -1,0 +1,176 @@
+/* Colores primarios MARS
+
+Azul rgb(0,0,160)
+Verde rgb(0,215,185)
+rojo rgb(255,20,20)
+amarrillo rgb(255,220,0)
+amarillo mars vecino rgb(255 197 71)
+morado mars vecino rgb(129 38 127)
+*/
+
+/*Estilos moviles*/
+/* vertical */
+@media (max-width: 575.98px)and (orientation:portrait) {
+    /* body{background: green;} */
+    .sencilla {
+        color: white;
+    }
+    
+    .fondoPrincipal {
+        background-color: rgb(237, 237, 237);
+    }
+    
+    .fondoImg {
+        /* imagen de fondo que esta en la carpeta publica */
+        /* width: auto;
+        height: 860px; */
+        /* background-image: url('/images/new/fondodoble.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; */
+        background-color: rgb(255 197 71);
+
+    }
+
+    .contenidoinicial {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .MMV {
+        font-size: 50px;
+        text-align: center;
+        color: rgb(163, 24, 24);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        background-color: rgb(255 197 71);
+        margin-bottom: 0;
+
+    }
+
+    .MMV1 {
+        font-size: 50px;
+        text-align: center;
+        color: rgb(163, 24, 24);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        background-color: rgb(255 197 71);
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: 20px;
+
+    }
+    
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+    
+    .divIngreso {
+        width: 90%;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); */
+        border-top-left-radius: 90px;
+        border-top-right-radius: 90px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .vecino {
+        width: 120px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .titulos {
+        display: flex;
+        flex-direction: column;
+    }
+    .tituloIngreso {
+        color: rgb(0, 0, 160);
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .divinput {
+        position: relative;
+        margin: 0 auto;
+        
+    }
+
+    .iconocedula {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        top: 50%;
+        left: 12px;
+        transform: translateY(-50%);
+        margin-top: 8px;
+    }
+
+    .inputIngreso {
+        width: 320px;
+        height: 55px;   
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 1px solid #81267f;
+        padding-left: 45px;
+        font-size: 20px;
+        color: #81267f;
+    }
+    .btnIngreso {
+        width: 250px;
+        height: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-color: rgb(129 38 127);
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .btnIngreso:active {
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #81267f;
+        color: #81267f;
+        transition: 0.3s ease;
+    }
+
+    .animate__animated.animate__pulse {
+        --animate-duration: 5s;
+      }
+      
+    
+} 
+/* horizontal */
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+    body{background: black;}
+}
+
+/*Estilos tabletas*/
+/*Vertical*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{background: orange;}
+}
+
+/*Horizontal*/
+@media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+    body{background: blue;}
+}
+
+/*Estilos desktop*/
+@media (min-width: 1199.98px)  {
+    body{background: red;}
+}
+
